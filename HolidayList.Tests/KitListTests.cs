@@ -16,6 +16,7 @@ namespace HolidayList.Tests
 
             kitList.Add(item);
 
+
             Assert.AreEqual(1, kitList.Items.Count());
             var actualItem = kitList.Items.Single();
             Assert.AreEqual("beachball", actualItem.Name);
